@@ -6,7 +6,7 @@ The samples in this directory demonstrate how to implement an Azure IoT Plug and
 
 The directory contains the following samples:
 
-* [simple_thermostat](./simple_thermostat) A simple thermostat that implements the model [dtmi:com:example:Thermostat;1](https://github.com/Azure/iot-plugandplay-models/blob/main/dtmi/com/example/thermostat-1.json).  This sample is considered simple because it only implements one component, the thermostat itself.  **You should begin with this sample.**
+* [simple_thermostat](./simple_thermostat.py) A simple thermostat that implements the model [dtmi:com:example:Thermostat;1](https://github.com/Azure/iot-plugandplay-models/blob/main/dtmi/com/example/thermostat-1.json).  This sample is considered simple because it only implements one component, the thermostat itself.  **You should begin with this sample.**
 
 * [temperature_controller](./temp_controller_with_thermostats) A temperature controller that implements the model [dtmi:com:example:TemperatureController;2](https://github.com/Azure/iot-plugandplay-models/blob/main/dtmi/com/example/temperaturecontroller-2.json).  This is considrably more complex than the [simple_thermostat](./simple_thermostat) and demonstrates the use of sub components.  **You should move onto this sample only after fully understanding simple_thermostat.**
 
