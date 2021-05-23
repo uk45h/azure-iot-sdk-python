@@ -24,7 +24,7 @@ This directory contains samples showing how to use the various features of the M
 3. [Retrieve your Device Connection String](https://docs.microsoft.com/en-us/cli/azure/ext/azure-cli-iot-ext/iot/hub/device-identity?view=azure-cli-latest#ext-azure-cli-iot-ext-az-iot-hub-device-identity-show-connection-string) using the Azure CLI
 
     ```bash
-    az iot hub device-identity show-connection-string --device-id <your device id> --hub-name <your IoT Hub name>
+    az iot hub device-identity connection-string show --device-id <your device id> --hub-name <your IoT Hub name>
     ```
 
     It should be in the format:
